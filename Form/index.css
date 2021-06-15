@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid rgb(223, 222, 222);;
+}
+::placeholder{
+    color: #4747c2;
+}
+.img-div img{
+    margin-left: 0px;
+}
+h3{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #4747c2;
+}
+.entire-form{
+    margin: auto;
+    text-align: center;
+     
+}
+.entire-form form input{
+  border-radius: 25px;
+  background: #e8e9e8;
+  padding: 8px; 
+  width: 300px;
+  height: 10px;  
+  border:none;
+  margin-top: 5px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #4747c2;
+  padding-left: 20px;
+}
+.entire-form form input:focus{
+    outline: none;
+}
+#comment{
+    height: 70px;
+    padding-top: 10px;
+}
+.entire-form form label{
+    color: #838383;
+    text-align: left;
+    float: left;
+    margin-left: 450px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.entire-form form button{
+    color: #e7e7e9;
+    border-radius: 25px;
+    background-color: #3030f8;
+    width: 250px;
+    height: 40px;
+    border:none;
+    margin-bottom: 150px;
+    
+}
+@media screen and (max-width: 600px) {
+    .entire-form form label{
+        float: left;
+        margin-left: 30px;
+    }
+  }
